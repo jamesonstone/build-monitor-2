@@ -1,0 +1,21 @@
+{
+  "monitor": {
+    "interval": 300000,
+    "numberOfBuilds": 12,
+    "debug": false
+  },
+  "services": [
+    {
+      "name": "Travis",
+      "configuration": {
+        "slug": "marcells/bloggy"
+      }
+    },
+    {
+      "name": "Travis",
+      "configuration": {
+        "slug": "marcells/node-build-monitor"
+      }
+    }
+  ]
+}
